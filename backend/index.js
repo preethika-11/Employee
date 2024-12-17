@@ -41,5 +41,14 @@ app.post('/api/employees', (req, res) => {
     });
 });
 
+// Get All Employees Endpoint
+app.get('/api/employees', (req, res) => {
+    const sqlGet = 'SELECT * FROM employees';
+    db.query(sqlGet, (err, results) => {
+        if (err) throw err;
+        res.status(200).json(results);
+    });
+});
+
 const PORT = 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); 
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
