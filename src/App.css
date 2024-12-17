@@ -1,16 +1,12 @@
-/* Color gradient text for the title */
-/* Gradient text with standard and vendor prefix for compatibility */
-/* Gradient text with standard and vendor prefix for compatibility */
+
 .gradient-text {
   background: linear-gradient(to right, #00c6ff, #0072ff);
-  -webkit-background-clip: text; /* For Webkit-based browsers */
-  background-clip: text; /* Standard property for compatibility */
+  -webkit-background-clip: text; 
+  background-clip: text;
   color: transparent;
 }
 
 
-
-/* Color gradient button background */
 .gradient-btn {
   background: linear-gradient(to right, #f46b45, #eea849);
   color: white;
@@ -24,27 +20,23 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Form container styling */
 .form-container {
   background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Input group styling for icons */
 .input-group-text {
   background-color: #0072ff;
   color: white;
   border: none;
 }
 
-/* Input field focus effect */
 .form-control:focus {
   border-color: #0072ff;
   box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
 }
 
-/* Message alert box */
 .alert-info {
   background-color: #0072ff;
   color: white;

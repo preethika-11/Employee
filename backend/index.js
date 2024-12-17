@@ -42,4 +42,4 @@ app.post('/api/employees', (req, res) => {
 });
 
 const PORT = 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); // Fixed the template literal issue here
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); 
